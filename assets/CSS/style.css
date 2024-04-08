@@ -1,0 +1,189 @@
+/*Caracteristica landing*/
+html{
+  width: 1280px;
+  height: 1937px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.raleway-iguana { /*Font Ralewat*/
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Caracteristicas body*/
+body{
+  color: #FFFFFF;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+}
+
+/*Caracteristicas del header*/
+header{
+  height: 800px;
+}
+
+h1 { /*Titulo*/
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 400;
+  padding: 7px 0px;
+}
+
+.bg-header{ /*Imagen iguana header*/
+  width:1280px;
+  height:727px;
+}
+
+/*Caracteristicas del main*/
+main {
+  width: 1280px;
+  height: 1044px;
+  margin: 0;
+  padding: 0;
+}
+
+/*Seccion de introduccion*/
+.descripcion {
+  background-color: black;
+  height: 348px;
+  padding: 0 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.descripIguana { /*Texto de descripcion de iguanas*/
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-weight: 300;
+  padding: 76px 106px 68px 0px;
+}
+
+.iguana-1 { /*Imagen iguana de descripcion*/
+  width: 399px;
+  height: 237px;
+  padding: 45px 0px 66px 0px;
+}
+
+/*Seccion de caracteristicas*/
+
+.caracteristicasFondo{
+  background-color: #1E1A13;
+  height: 348px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h2{ /*Subtitulo Caracteristicas*/
+  margin: 75px 460.5px 0px 463.5px;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 0px;
+  height: 47px;
+}
+
+i{ /*Propiedades de los iconos tag i*/
+  margin: 0;
+  padding: 0;
+  padding-bottom: 74px;
+}
+
+.bloque1{ /*Bloque icono ojo y texto tercer ojo*/
+  margin: 0;
+  padding-top: 70px;
+}
+
+ .icon1 { /*Icono Ojo*/
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+}
+
+.caractLetra1 { /*Texto Tercer ojo*/
+  font-size: 24px;
+  margin: 0;
+  padding-top: 16.36px;
+  font-weight: 300;
+}
+
+.bloque2 { /*Bloque icono mano y texto Pacificas*/
+  margin: 0;
+  padding-top: 70px;
+}
+
+.icon2 { /*Icono mano*/
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+}
+
+.caractLetra2 { /*Texto Pacificas*/
+  font-size: 25px;
+  margin: 0;
+  padding-top: 16.2px;
+  font-weight: 300;
+}
+
+.bloque3 { /*Bloque icono pincel y texto Cambian de color*/
+  margin: 0;
+  padding-top: 80px;
+}
+
+.icon3 { /*Icono Pincel*/
+  font-size: 45px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.caractLetra3 {/*Texto Cambian de color */
+  font-size: 25px;
+  margin: 0;
+  padding-top: 16px;
+  font-weight: 300;
+}
+
+/*Seccion galeria fotos*/
+
+.fotos { 
+  padding: 0px 150px;
+  height: 348px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.iguanaFoto { /*Especificaciones imagenes iguana*/
+  width: 316px;
+  height: 202px;
+  padding: 73px 8px;
+}
+
+/*Seccion footer*/
+
+footer{
+  background-color: #1E1A13;
+  height: 102px;
+  padding: 0;
+}
+
+.pFoot { /*Texto footer*/
+  padding: 39px 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
